@@ -1,5 +1,5 @@
-var milkcocoa = new MilkCocoa('flagj7ie632f.mlkcca.com');
-var chatDataStore = milkcocoa.dataStore("led");
+var milkcocoa = new MilkCocoa('');
+var chatDataStore = milkcocoa.dataStore("");
 var board;
 window.onload = function(){
   board = document.getElementById("board");
