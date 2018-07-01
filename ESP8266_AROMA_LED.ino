@@ -6,6 +6,7 @@
 #define WLAN_PASS       ""  // Wi-Fi Password
 
 #define PIN 5  // ESP-WROOM-02 Dev Board IO5 => GPIO5
+#define DEVICEID 1  // if selector is DEVICEID, PIN is switched on during timer. if NOT, MOTOR doesn't work.
 #define LEDPIN 4  // ESP-WROOM-02 Dev Board IO4 => GPIO4
 #define NUMPIXELS 16   // Number of LEDs
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUMPIXELS, LEDPIN, NEO_GRB + NEO_KHZ800);
